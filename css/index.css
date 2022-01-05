@@ -26,12 +26,19 @@ main > h1, h2, h3 {
   color: #1a2b3c;
 }
 
+@media only screen and (min-width:700px){
+main.tmpl-post {
+  max-width: 63%;
+  margin: 0 auto;
+}
+}
+
 p:last-child {
   margin-bottom: 0;
 }
 p,
 .tmpl-post li, img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 50.5em; /* 600px /16 */
 }
 p,
 .tmpl-post li {
