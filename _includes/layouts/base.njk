@@ -14,6 +14,11 @@
   </head>
   <body>
     <header>
+      <div class="intro">
+      <h1>I'd rather wear black</h1>
+      <p>Todav&iacute;a est&aacute; por definirse el rol de este sitio, empezaremos con lo paranormal, pasaremos por la historia y el arte para terminar con temas cotidianos.</p>
+    </div>
+
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -22,13 +27,38 @@
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+
     </header>
+
+<article class="head">
+<section class="flexy">
+  <figure>
+   <img src="https://media1.popsugar-assets.com/files/thumbor/xhixJLFHiNFj2e-l3ngMS2IskAg/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2015/09/29/000/n/1922398/9fcce84e_GettyImages-489164518.jpg" />
+   <figcaption>
+    Rosario.
+   </figcaption>
+  </figure>
+ </section>
+ <section class="flexy">
+  <h1><a href="/blog/diana-gardeneira">Diana Gardeneira, arte y feminismo</a></h1>
+  <p><time datetime="2018-07-19 10:07:32 -0500"> <small> <strong>19 Jul 2018</strong> por Fernando Mayorga </small> </time></p>
+  <p><small>La noticia de que su obra gan&oacute; el Primer Premio fue tendencia en las redes sociales.</small></p>
+  <p></p>
+  <p>Entrevista con Diana Gardeneira, ganadora de la sexag&eacute;smia edici&oacute;n del Sal&oacute;n de Julio - Pintura &laquo;Fundaci&oacute;n de Guayaquil&raquo;, veinte minutos donde cuenta sobre su activismo y la pl&aacute;stica que nace de su pincel.</p>
+  <figure>
+   <img src="/img/sparks_bw.jpg" />
+   <figcaption>
+    Sparks.
+   </figcaption>
+  </figure>
+</section>
+</article>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer>Fernando Mayorga &copy; 2022.</footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
