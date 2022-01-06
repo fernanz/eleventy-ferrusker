@@ -1,5 +1,9 @@
+---
+date: 2022-01-06
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,10 +44,11 @@
   </figure>
  </section>
  <section class="flexy">
-  <h1><a href="/blog/diana-gardeneira">Diana Gardeneira, arte y feminismo</a></h1>
-  <p><time datetime="2018-07-19 10:07:32 -0500"> <small> <strong>19 Jul 2018</strong> por Fernando Mayorga </small> </time></p>
+
+  <h1>Título principal</h1>
+  <p> <small> <strong><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></strong> por Fernando Mayorga </small></p>
   <p><small>La noticia de que su obra gan&oacute; el Primer Premio fue tendencia en las redes sociales.</small></p>
-  <p></p>
+
   <p>Entrevista con Diana Gardeneira, ganadora de la sexag&eacute;smia edici&oacute;n del Sal&oacute;n de Julio - Pintura &laquo;Fundaci&oacute;n de Guayaquil&raquo;, veinte minutos donde cuenta sobre su activismo y la pl&aacute;stica que nace de su pincel.</p>
   <figure>
    <img src="/img/sparks_bw.jpg" />
@@ -51,12 +56,13 @@
     Sparks.
    </figcaption>
   </figure>
+
 </section>
 </article>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+<main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
-    </main>
+</main>
 
     <footer>Fernando Mayorga &copy; 2022.</footer>
 
