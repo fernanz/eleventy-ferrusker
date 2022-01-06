@@ -113,7 +113,7 @@ div.intro > p {
 @media only screen and (max-width:700px){
 div.intro {
 	display: block;
-  max-width: 70%;
+  max-width: 80%;
   margin-left: 15px;
   margin-bottom: 1rem;
 }
@@ -121,7 +121,7 @@ div.intro > h1 {
 	display: inline-block;
 	font-family: 'Inter-Bold',sans-serif;
 	font-size: 3.5em;
-	line-height: 1em;
+	line-height: .8999em;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -129,8 +129,8 @@ div.intro > h1 {
 div.intro > p {
 	display: inline-block;
 	font-family: 'Inter-Thin',sans-serif;
-	font-size: 1rem;
-	line-height: 1.3rem;
+	font-size: .9rem;
+	line-height: 1rem;
   padding-left: 15vw;
   padding-bottom: .1rem;
   margin-bottom: .5rem;
