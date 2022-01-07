@@ -350,6 +350,7 @@ section.flexy {
 section.flexy>figure{
   margin: 0;
   padding: 0;
+  float:right;
 }
 
 figcaption{
