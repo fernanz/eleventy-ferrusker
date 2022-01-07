@@ -1,9 +1,9 @@
 ---
 title: El quinto.
-description: This is a post on My Blog about agile frameworks.
+description: Así es como hemos empezado otra vuelta más al astro rey navegando montados en la Tierra, llenos de sueños y esperanzas, sin bajar la guardia.
 date: 2022-01-06
 tags:
-  - another tag
+  - terraqueo
 layout: layouts/post.njk
 ---
 

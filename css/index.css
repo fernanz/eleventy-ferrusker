@@ -32,16 +32,19 @@ main > h1, h2, h3 {
 	line-height: 1.1538461538;
   color: #1a2b3c;
 }
+main > h1 {
+  font-size: 2.3rem;
+}
 
 @media only screen and (min-width:700px){
 main.tmpl-post {
-  max-width: 63%;
-  margin: 0 auto;
+  max-width: 50.5em;
+  margin: auto;
 }
 }
 
 p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 p,
 .tmpl-post li, img {
@@ -50,6 +53,11 @@ p,
 p,
 .tmpl-post li {
   line-height: 1.45;
+}
+.description {
+  color: #cc0c0c0;
+  padding-left: 5%;
+  margin: 0 0 1rem 0;
 }
 
 @media only screen and (max-width:700px){
@@ -71,7 +79,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
+  padding: 3rem 1.3rem;
 }
 main :first-child {
   margin-top: 0;
@@ -375,6 +383,10 @@ section.flexy>h1 {
 section.flexy>p {
   padding-left: 15px;
   max-width: 90%
+}
+
+section.flexy:nth-child(1) {
+  mix-blend-mode: multiply;
 }
 
 @media only screen and (min-width:700px){
