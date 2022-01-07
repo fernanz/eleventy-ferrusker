@@ -77,7 +77,9 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  background-color: rgba(17,85,113,.8);
+  background-image: url(/img/project-paper.png);
+  /* border-bottom: 1px dashed var(--navy); */
 }
 header:after {
   content: "";
@@ -87,7 +89,7 @@ header:after {
 
 div.intro {
 	display: block;
-  max-width: 60%;
+  max-width: 65%;
   margin-left: 15px;
   margin-bottom: 2rem;
 }
@@ -98,6 +100,7 @@ div.intro > h1 {
 	line-height: 6.3rem;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: var(--navy);
 }
 
 div.intro > p {
@@ -336,6 +339,7 @@ article.head{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
+  background-color: #eee;
 }
 
 section.flexy {
@@ -386,8 +390,8 @@ footer {
   position:relative;
   font-size:1rem;
   padding:15px;
-  background-color:#1a1a1a;
   color: orange;
   letter-spacing: 1px;
   min-height: 5rem;
+  background-color: #081426;
 }
