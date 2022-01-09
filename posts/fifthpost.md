@@ -5,9 +5,9 @@ date: 2022-01-06
 tags:
   - terraqueo
 layout: layouts/post.njk
+thumb_img: '/img/round_test.jpg'
+image: '/img/sparks_bw.jpg'
 ---
-
-![El Sparkie](/img/sparks_bw.jpg)
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
