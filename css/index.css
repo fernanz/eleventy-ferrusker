@@ -383,6 +383,16 @@ img {
   max-width: 20vw;
 }
 
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  z-index: 0;
+}
+
 section.flexy>h1 {
   font-family: "Noto Serif",serif;
   font-size: 1.8rem;
