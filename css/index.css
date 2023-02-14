@@ -79,14 +79,15 @@ p,
 }
 
 a[href] {
-  color: brown;
+  color: silver;
   letter-spacing: 2px;
   text-decoration: none;
 }
 a[href]:visited {
-  color: brown;
+  color: silver;
   text-decoration: none;
 }
+
 main {
   padding: 3rem 1.3rem;
 }
@@ -287,8 +288,14 @@ code {
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
 }
+
+a[href].postlist-link {
+  color: var(--darkgray);
+}
+
 .postlist-item-active .postlist-link {
   font-weight: bold;
+
 }
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
@@ -428,8 +435,13 @@ footer a {
 footer {
   font-size:1rem;
   padding:15px;
-  color: #bada55;
   letter-spacing: 1px;
   min-height: 5rem;
-  background-color: #081426;
+  background-color: transparent;
+  border: solid 1px #C8C8C8;
+}
+
+small.end {
+  float:right;
+  color: gray;
 }
