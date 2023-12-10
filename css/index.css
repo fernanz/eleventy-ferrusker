@@ -405,10 +405,11 @@ img {
 }
 
 section.flexy>h1 {
-  font-family: "Noto Serif",serif;
-  font-size: 1.8rem;
+  font-family: "Inter Bold",sans-serif;
+  font-size: 3.8rem;
 	font-weight: 700;
 	line-height: 1.1538461538;
+  max-width: 85%;
   color: #1a2b3c;
   padding-left: 15px;
 }
